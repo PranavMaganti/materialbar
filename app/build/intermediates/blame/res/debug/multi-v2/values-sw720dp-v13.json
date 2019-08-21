@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/250b64957f32e3c1dbb4a209fdc59fc1/core-3.1.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/5e79946f066e2c2e69ed300501bb638c/core-3.1.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

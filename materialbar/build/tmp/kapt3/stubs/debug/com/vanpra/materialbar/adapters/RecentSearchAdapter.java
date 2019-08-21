@@ -7,26 +7,26 @@ public final class RecentSearchAdapter extends androidx.recyclerview.widget.List
     private final kotlin.jvm.functions.Function1<com.vanpra.materialbar.database.RecentSearches, kotlin.Unit> itemListener = null;
     private final kotlin.jvm.functions.Function1<com.vanpra.materialbar.database.RecentSearches, kotlin.Unit> deleteListener = null;
     
-    @org.jetbrains.annotations.NotNull
-    @java.lang.Override
-    public com.vanpra.materialbar.adapters.RecentSearchAdapter.ViewHolder onCreateViewHolder(@org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
+    @java.lang.Override()
+    public com.vanpra.materialbar.adapters.RecentSearchAdapter.ViewHolder onCreateViewHolder(@org.jetbrains.annotations.NotNull()
     android.view.ViewGroup parent, int viewType) {
         return null;
     }
     
-    @java.lang.Override
-    public void onBindViewHolder(@org.jetbrains.annotations.NotNull
+    @java.lang.Override()
+    public void onBindViewHolder(@org.jetbrains.annotations.NotNull()
     com.vanpra.materialbar.adapters.RecentSearchAdapter.ViewHolder holder, int position) {
     }
     
-    private final android.view.View inflate(@org.jetbrains.annotations.NotNull
-    android.view.ViewGroup $this$inflate, @androidx.annotation.LayoutRes
+    private final android.view.View inflate(@org.jetbrains.annotations.NotNull()
+    android.view.ViewGroup $this$inflate, @androidx.annotation.LayoutRes()
     int layoutRes, boolean attachToRoot) {
         return null;
     }
     
-    public RecentSearchAdapter(@org.jetbrains.annotations.NotNull
-    kotlin.jvm.functions.Function1<? super com.vanpra.materialbar.database.RecentSearches, kotlin.Unit> itemListener, @org.jetbrains.annotations.NotNull
+    public RecentSearchAdapter(@org.jetbrains.annotations.NotNull()
+    kotlin.jvm.functions.Function1<? super com.vanpra.materialbar.database.RecentSearches, kotlin.Unit> itemListener, @org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function1<? super com.vanpra.materialbar.database.RecentSearches, kotlin.Unit> deleteListener) {
         super(null);
     }
@@ -35,11 +35,11 @@ public final class RecentSearchAdapter extends androidx.recyclerview.widget.List
     public static final class ViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
         private android.view.View view;
         
-        public final void bindItem(@org.jetbrains.annotations.NotNull
+        public final void bindItem(@org.jetbrains.annotations.NotNull()
         com.vanpra.materialbar.database.RecentSearches item) {
         }
         
-        public ViewHolder(@org.jetbrains.annotations.NotNull
+        public ViewHolder(@org.jetbrains.annotations.NotNull()
         android.view.View v) {
             super(null);
         }
@@ -49,16 +49,16 @@ public final class RecentSearchAdapter extends androidx.recyclerview.widget.List
     public static final class FormatDiffer extends androidx.recyclerview.widget.DiffUtil.ItemCallback<com.vanpra.materialbar.database.RecentSearches> {
         public static final com.vanpra.materialbar.adapters.RecentSearchAdapter.FormatDiffer INSTANCE = null;
         
-        @java.lang.Override
-        public boolean areItemsTheSame(@org.jetbrains.annotations.NotNull
-        com.vanpra.materialbar.database.RecentSearches oldItem, @org.jetbrains.annotations.NotNull
+        @java.lang.Override()
+        public boolean areItemsTheSame(@org.jetbrains.annotations.NotNull()
+        com.vanpra.materialbar.database.RecentSearches oldItem, @org.jetbrains.annotations.NotNull()
         com.vanpra.materialbar.database.RecentSearches newItem) {
             return false;
         }
         
-        @java.lang.Override
-        public boolean areContentsTheSame(@org.jetbrains.annotations.NotNull
-        com.vanpra.materialbar.database.RecentSearches oldItem, @org.jetbrains.annotations.NotNull
+        @java.lang.Override()
+        public boolean areContentsTheSame(@org.jetbrains.annotations.NotNull()
+        com.vanpra.materialbar.database.RecentSearches oldItem, @org.jetbrains.annotations.NotNull()
         com.vanpra.materialbar.database.RecentSearches newItem) {
             return false;
         }

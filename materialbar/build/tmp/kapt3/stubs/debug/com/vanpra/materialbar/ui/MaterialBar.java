@@ -6,11 +6,11 @@ import java.lang.System;
 public final class MaterialBar extends androidx.constraintlayout.widget.ConstraintLayout {
     private java.util.HashMap _$_findViewCache;
     
-    public final void setRightIconListener(@org.jetbrains.annotations.NotNull
+    public final void setRightIconListener(@org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function0<kotlin.Unit> listener) {
     }
     
-    public final void setLeftIconListener(@org.jetbrains.annotations.NotNull
+    public final void setLeftIconListener(@org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function0<kotlin.Unit> listener) {
     }
     
@@ -20,27 +20,27 @@ public final class MaterialBar extends androidx.constraintlayout.widget.Constrai
     public final void setLeftIcon(int icon) {
     }
     
-    public final void setTitle(@org.jetbrains.annotations.NotNull
+    public final void setTitle(@org.jetbrains.annotations.NotNull()
     java.lang.String text) {
     }
     
-    public final void setBarClickListener(@org.jetbrains.annotations.NotNull
+    public final void setBarClickListener(@org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function0<kotlin.Unit> listener) {
     }
     
-    public MaterialBar(@org.jetbrains.annotations.NotNull
-    android.content.Context context, @org.jetbrains.annotations.Nullable
+    public MaterialBar(@org.jetbrains.annotations.NotNull()
+    android.content.Context context, @org.jetbrains.annotations.Nullable()
     android.util.AttributeSet attrs, int defStyleRes) {
         super(null);
     }
     
-    public MaterialBar(@org.jetbrains.annotations.NotNull
-    android.content.Context context, @org.jetbrains.annotations.Nullable
+    public MaterialBar(@org.jetbrains.annotations.NotNull()
+    android.content.Context context, @org.jetbrains.annotations.Nullable()
     android.util.AttributeSet attrs) {
         super(null);
     }
     
-    public MaterialBar(@org.jetbrains.annotations.NotNull
+    public MaterialBar(@org.jetbrains.annotations.NotNull()
     android.content.Context context) {
         super(null);
     }

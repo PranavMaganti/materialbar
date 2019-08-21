@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/58e444982ea5615e33a0f049fe378b96/preference-1.1.0-rc01/res/values-ta/values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,264,346,495,664,745",
-                        "endColumns": "69,88,81,148,168,80,76",
-                        "endOffsets": "170,259,341,490,659,740,817"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,35,36,37",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "2871,2941,3030,3112,3443,3612,3693",
-                        "endColumns": "69,88,81,148,168,80,76",
-                        "endOffsets": "2936,3025,3107,3256,3607,3688,3765"
-                    }
-                },
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/88f6e6e58c9eab33e48aba128fa52132/core-1.1.0-rc01/res/values-ta/values-ta.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/f7c32c139f4e8387ea9741fcad621c67/core-1.1.0-rc01/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64ee2d668905d1471feccf69daec9753/appcompat-1.1.0-rc01/res/values-ta/values-ta.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/169923aa754682eb4479ffd430452800/preference-1.1.0-rc01/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,264,346,495,664,745",
+                        "endColumns": "69,88,81,148,168,80,76",
+                        "endOffsets": "170,259,341,490,659,740,817"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2871,2941,3030,3112,3443,3612,3693",
+                        "endColumns": "69,88,81,148,168,80,76",
+                        "endOffsets": "2936,3025,3107,3256,3607,3688,3765"
+                    }
+                },
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/54708309c862b3dc5b21ec78e81e04e3/appcompat-1.1.0-rc01/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

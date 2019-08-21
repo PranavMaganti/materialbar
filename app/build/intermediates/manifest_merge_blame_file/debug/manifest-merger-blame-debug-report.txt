@@ -33,58 +33,59 @@
 21-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
 22-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:13:9-35
-23        android:theme="@style/AppTheme" >
-23-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:14:9-40
-24        <activity android:name="com.vanpra.materialmusic.SearchActivity" />
-24-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:9-61
-24-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:19-49
-25        <activity android:name="com.vanpra.materialmusic.MainActivity" >
-25-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:9-22:20
-25-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:19-47
-26            <intent-filter>
-26-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:18:17-69
-27-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:20:17-77
-29-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:58
-33            android:name="com.vanpra.materialbar.ui.SearchActivity"
-33-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-68
-34            android:windowSoftInputMode="stateVisible" />
-34-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-55
-35
-36        <provider
-36-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:10:9-13:40
-37            android:name="coil.util.CoilContentProvider"
-37-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:11:13-57
-38            android:authorities="com.vanpra.materialmusic.coil"
-38-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:12:13-56
-39            android:exported="false" />
-39-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:13:13-37
-40
-41        <service
-41-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
-42            android:name="androidx.room.MultiInstanceInvalidationService"
-42-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
-43            android:exported="false" />
-43-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
-44
-45        <provider
-45-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-47            android:authorities="com.vanpra.materialmusic.lifecycle-process"
-47-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-48            android:exported="false"
-48-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-49            android:multiprocess="true" />
-49-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-50    </application>
-51
-52</manifest>
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:14:9-40
+25        <activity android:name="com.vanpra.materialbarexample.SearchActivity" />
+25-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:9-90
+25-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:19-78
+26        <activity android:name="com.vanpra.materialbarexample.MainActivity" >
+26-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:9-22:20
+26-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:19-76
+27            <intent-filter>
+27-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:18:17-69
+28-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:20:17-77
+30-->/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:58
+34            android:name="com.vanpra.materialbar.ui.SearchActivity"
+34-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-68
+35            android:windowSoftInputMode="stateVisible" />
+35-->[:materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-55
+36
+37        <provider
+37-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:10:9-13:40
+38            android:name="coil.util.CoilContentProvider"
+38-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:11:13-57
+39            android:authorities="com.vanpra.materialmusic.coil"
+39-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:12:13-56
+40            android:exported="false" />
+40-->[io.coil-kt:coil:0.6.1] /home/pranav/.gradle/caches/transforms-2/files-2.1/0cbaa834a9f49832e7ca43bab2094efc/coil-0.6.1/AndroidManifest.xml:13:13-37
+41
+42        <service
+42-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+43            android:name="androidx.room.MultiInstanceInvalidationService"
+43-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+45
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+48            android:authorities="com.vanpra.materialmusic.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+51    </application>
+52
+53</manifest>

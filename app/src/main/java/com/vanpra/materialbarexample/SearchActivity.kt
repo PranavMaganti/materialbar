@@ -60,8 +60,7 @@ class SearchActivity : AppCompatActivity() {
                             Permission.WRITE_EXTERNAL_STORAGE,
                             Permission.READ_EXTERNAL_STORAGE
                         ) {
-                            Log.d("PATH", item.path!!)
-                            val file = File(item.path!!)
+                            val file = File(item.path)
                             val deleted = file.delete()
                             Log.d("DELETE", deleted.toString())
                         }
@@ -95,7 +94,7 @@ class SearchActivity : AppCompatActivity() {
         runWithPermissions(
             Permission.READ_EXTERNAL_STORAGE
         ) {
-            mainViewModel.extractData().observe(this@SearchActivity, Observer { returnedSongs ->
+            mainViewModel.extractData().observe(this, Observer { returnedSongs ->
                 songs = returnedSongs
             })
         }

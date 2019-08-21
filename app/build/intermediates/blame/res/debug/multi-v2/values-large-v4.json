@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/333e98ae20595edbb53ebcb2b54b04ef/material-1.0.0/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,177",
-                        "endColumns": "121,133",
-                        "endOffsets": "172,306"
-                    },
-                    "to": {
-                        "startLines": "12,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "798,920",
-                        "endColumns": "121,133",
-                        "endOffsets": "915,1049"
-                    }
-                },
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64ee2d668905d1471feccf69daec9753/appcompat-1.1.0-rc01/res/values-large-v4/values-large-v4.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/54708309c862b3dc5b21ec78e81e04e3/appcompat-1.1.0-rc01/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/df387f54ced15504801df0403ae13cac/bottomsheets-3.1.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/881a574add9b5c1595ec9aaddda17dd5/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "12,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "798,920",
+                        "endColumns": "121,133",
+                        "endOffsets": "915,1049"
+                    }
+                },
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/00151c47713ec44c9caaa62ec1ae3b41/bottomsheets-3.1.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

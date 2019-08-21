@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/88f6e6e58c9eab33e48aba128fa52132/core-1.1.0-rc01/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3326",
-                        "endColumns": "100",
-                        "endOffsets": "3422"
-                    }
-                },
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64ee2d668905d1471feccf69daec9753/appcompat-1.1.0-rc01/res/values-or/values-or.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/54708309c862b3dc5b21ec78e81e04e3/appcompat-1.1.0-rc01/res/values-or/values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/58e444982ea5615e33a0f049fe378b96/preference-1.1.0-rc01/res/values-or/values-or.xml",
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/f7c32c139f4e8387ea9741fcad621c67/core-1.1.0-rc01/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3326",
+                        "endColumns": "100",
+                        "endOffsets": "3422"
+                    }
+                },
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/169923aa754682eb4479ffd430452800/preference-1.1.0-rc01/res/values-or/values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

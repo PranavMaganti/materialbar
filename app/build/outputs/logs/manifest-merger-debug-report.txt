@@ -64,7 +64,7 @@ INJECTED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/Androi
 INJECTED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:2:1-25:12
 INJECTED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:3:5-39
+		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml
 		INJECTED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -125,14 +125,14 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pranav/.gradle/caches/tr
 		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.vanpra.materialmusic.SearchActivity
-ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:9-61
+activity#com.vanpra.materialbarexample.SearchActivity
+ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:9-90
 	android:name
-		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:19-49
-activity#com.vanpra.materialmusic.MainActivity
+		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:15:19-78
+activity#com.vanpra.materialbarexample.MainActivity
 ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:16:19-76
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN

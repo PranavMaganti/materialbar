@@ -97,18 +97,18 @@ class SearchBar @JvmOverloads constructor(
                 })
 
 
-        recentSearchRv!!.apply {
+        recentSearchRv.apply {
             setHasFixedSize(true)
             layoutManager = LinearLayoutManager(this.context)
             adapter = recentSearchAdapter
             addItemDecoration(DividerItemDecoration(this.context, ClipDrawable.HORIZONTAL))
         }
 
-        playlistRepo.getAllRecentSearches().observeForever(Observer {
+        playlistRepo.getAllRecentSearches().observeForever {
             recentSearchAdapter.submitList(it)
-        })
+        }
 
-        searchResultsRv!!.apply {
+        searchResultsRv.apply {
             setHasFixedSize(true)
             layoutManager = LinearLayoutManager(this.context)
             if (searchResultAdapter != null) {
@@ -119,7 +119,7 @@ class SearchBar @JvmOverloads constructor(
     }
 
     fun setResultsAdapter(rvAdapter:RecyclerView.Adapter<*>) {
-        searchResultsRv!!.apply {
+        searchResultsRv.apply {
             setHasFixedSize(true)
             layoutManager = LinearLayoutManager(this.context)
             adapter = rvAdapter

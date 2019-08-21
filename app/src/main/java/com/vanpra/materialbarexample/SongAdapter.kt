@@ -20,7 +20,7 @@ data class Song(
     val artist: String,
     val duration: String,
     val image: Uri?,
-    var path: String? = null
+    var path: String
 
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
@@ -28,7 +28,7 @@ data class Song(
         parcel.readString()!!,
         parcel.readString()!!,
         parcel.readParcelable(Uri::class.java.classLoader),
-        parcel.readString()
+        parcel.readString()!!
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
