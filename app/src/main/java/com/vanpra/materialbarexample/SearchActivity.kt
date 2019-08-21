@@ -88,13 +88,15 @@ class SearchActivity : AppCompatActivity() {
 
                 songAdapter.submitList(sortedSongs)
             }
-            searchResultAdapter = songAdapter
+
+            setResultsAdapter(songAdapter)
         }
 
         runWithPermissions(
             Permission.READ_EXTERNAL_STORAGE
         ) {
             mainViewModel.extractData().observe(this, Observer { returnedSongs ->
+                Log.d("SONGS", returnedSongs.toString())
                 songs = returnedSongs
             })
         }

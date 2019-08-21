@@ -11,7 +11,6 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -30,7 +29,6 @@ class SearchBar @JvmOverloads constructor(
 ) : ConstraintLayout(context, attrs, defStyleRes) {
 
     var textListener: ((String) -> Unit)? = null
-    var searchResultAdapter: RecyclerView.Adapter<*>? = null
     var backListener: (() -> Unit)? = null
 
     private val playlistRepo = PlaylistRepository.instance(context.applicationContext)
@@ -106,15 +104,6 @@ class SearchBar @JvmOverloads constructor(
 
         playlistRepo.getAllRecentSearches().observeForever {
             recentSearchAdapter.submitList(it)
-        }
-
-        searchResultsRv.apply {
-            setHasFixedSize(true)
-            layoutManager = LinearLayoutManager(this.context)
-            if (searchResultAdapter != null) {
-                adapter = searchResultAdapter
-            }
-            addItemDecoration(DividerItemDecoration(this.context, ClipDrawable.HORIZONTAL))
         }
     }
 
