@@ -1,6 +1,9 @@
 # Material Bar
 A Material designed search bar for android written in Kotlin
 
+[![](https://jitpack.io/v/vanpra/materialbar.svg)](https://jitpack.io/#vanpra/materialbar)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Gradle Dependency
 Add the following code to your root build.gradle at the end of repositories:
 
