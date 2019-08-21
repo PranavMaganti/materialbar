@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Material Music</string>
+    <string name="search_for_a_song_artist_or_album">Search for a song, artist or album</string>
+    <string name="album_cover">Album cover</string>
+    <string name="song_item_menu">Song item menu</string>
+    <string name="album">Album</string>
+    <string name="menu_item_image">Menu item image</string>
+</resources>

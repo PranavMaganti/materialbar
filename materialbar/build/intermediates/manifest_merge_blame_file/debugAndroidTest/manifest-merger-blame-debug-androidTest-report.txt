@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vanpra.materialbar.test" >
+4
+5    <uses-sdk
+5-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:5:5-74
+6        android:minSdkVersion="25"
+6-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:11:5-15:77
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:13:22-53
+13        android:label="Tests for com.vanpra.materialbar.test"
+13-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:15:22-75
+14        android:targetPackage="com.vanpra.materialbar.test" />
+14-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:12:22-73
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:24:22-69
+17
+18    <application
+18-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0-rc01] /home/pranav/.gradle/caches/transforms-2/files-2.1/f7c32c139f4e8387ea9741fcad621c67/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+20-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:7:18-43
+21        android:extractNativeLibs="false" >
+22        <uses-library android:name="android.test.runner" />
+22-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:8:9-60
+22-->/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1159957188474429247.xml:8:23-57
+23
+24        <activity
+24-->[__tested_artifact__::materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:58
+25            android:name="com.vanpra.materialbar.ui.SearchActivity"
+25-->[__tested_artifact__::materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-68
+26            android:windowSoftInputMode="stateVisible" />
+26-->[__tested_artifact__::materialbar] /home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-55
+27        <activity
+27-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:27:9-33:20
+28            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+28-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:28:13-99
+29            android:theme="@android:style/Theme" >
+29-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:29:13-49
+30            <intent-filter>
+30-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:30:13-32:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:17-69
+31-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:25-66
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:34:9-40:20
+35            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+35-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:35:13-95
+36            android:theme="@android:style/Theme" >
+36-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:36:13-49
+37            <intent-filter>
+37-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:30:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:17-69
+38-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:25-66
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:41:9-47:20
+42            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+42-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:42:13-103
+43            android:theme="@android:style/Theme.Dialog" >
+43-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:43:13-56
+44            <intent-filter>
+44-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:30:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:17-69
+45-->[androidx.test:core:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b1cc1d4f283dec1bf41e3eef81e45fc8/core-1.2.0/AndroidManifest.xml:31:25-66
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+51            android:exported="false" />
+51-->[androidx.room:room-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4786e115b08cdaeb741e605d6e221693/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+52
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+55            android:authorities="com.vanpra.materialbar.test.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d11da6df2494dac0cb54596c2d2acffb/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+58    </application>
+59
+60</manifest>

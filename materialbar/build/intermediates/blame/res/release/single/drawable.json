@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/drawable/background.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/drawable/background.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/drawable/menu.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/drawable/menu.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/drawable/close.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/drawable/close.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/drawable/arrow_left.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/drawable/arrow_left.xml"
+    }
+]

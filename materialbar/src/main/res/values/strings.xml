@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Material Search Bar</string>
+    <string name="left_icon_button">Left icon button</string>
+    <string name="right_icon_button">Right icon button</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="delete_search_item">Delete search item</string>
+</resources>

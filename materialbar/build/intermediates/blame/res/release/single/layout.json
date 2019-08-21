@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/layout/recent_search_layout.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/layout/recent_search_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/layout/search_bar_layout.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/layout/search_bar_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/res/merged/release/layout/material_bar_layout.xml",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/res/layout/material_bar_layout.xml"
+    }
+]

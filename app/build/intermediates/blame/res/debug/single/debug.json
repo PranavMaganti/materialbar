@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_arrow_left.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/drawable/arrow_left.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_activity_search.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_material_bar_layout.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/layout/material_bar_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_close.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/drawable/close.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_dots_vertical.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/dots_vertical.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_menu.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/menu.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_account_circle_outline.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/account_circle_outline.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_bottom_sheet_menu.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/layout/bottom_sheet_menu.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_bottom_sheet_menu_items.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/layout/bottom_sheet_menu_items.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_search_bar_layout.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/layout/search_bar_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/font_google_sans.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/font/google_sans.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_recent_search_layout.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/layout/recent_search_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_delete.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/delete.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/build/intermediates/packaged_res/debug/drawable/background.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_song_item_layout.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/layout/song_item_layout.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_playlist_plus.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/playlist_plus.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_music_note.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/music_note.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/build/intermediates/res/merged/debug/drawable_pencil.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialMusic/app/src/main/res/drawable/pencil.xml"
+    }
+]

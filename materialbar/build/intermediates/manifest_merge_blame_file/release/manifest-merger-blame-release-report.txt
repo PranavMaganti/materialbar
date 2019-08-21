@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vanpra.materialbar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml
+10
+11    <application>
+11-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml:5:5-9:19
+12        <activity
+12-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml:6:9-8:58
+13            android:name="com.vanpra.materialbar.ui.SearchActivity"
+13-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml:7:13-46
+14            android:windowSoftInputMode="stateVisible" />
+14-->/home/pranav/AndroidStudioProjects/MaterialMusic/materialbar/src/main/AndroidManifest.xml:8:13-55
+15    </application>
+16
+17</manifest>
