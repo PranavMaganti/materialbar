@@ -7,7 +7,6 @@ A Material designed search bar for android written in Kotlin
 ## Gradle Dependency
 Add the following code to your root build.gradle at the end of repositories:
 
-
 	allprojects {
 	    repositories {
 		...
