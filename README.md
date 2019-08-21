@@ -15,7 +15,7 @@ Add the following code to your root build.gradle at the end of repositories:
 Then add the following to your project dependencies:
 
 	dependencies {
-	    implementation 'com.github.vanpra:MaterialBar:0.0.1'
+	    implementation 'com.github.vanpra:materialbar:0.0.1'
 	}
 
 ## Screenshots
