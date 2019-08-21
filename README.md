@@ -1,9 +1,11 @@
 # Material Bar
 A Material designed search bar for android written in Kotlin
 
+[![](https://jitpack.io/v/vanpra/materialbar.svg)](https://jitpack.io/#vanpra/materialbar)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Gradle Dependency
 Add the following code to your root build.gradle at the end of repositories:
-
 
 	allprojects {
 	    repositories {
@@ -15,12 +17,12 @@ Add the following code to your root build.gradle at the end of repositories:
 Then add the following to your project dependencies:
 
 	dependencies {
-	    implementation 'com.github.vanpra:MaterialBar:0.0.1'
+	    implementation 'com.github.vanpra:materialbar:0.0.1'
 	}
 
 ## Screenshots
 
-|  ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png)|  ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png)
+|  ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png)|  ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png)|
 |--|--|
 
 ## Main Bar
