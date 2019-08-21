@@ -1,8 +1,8 @@
 # Material Bar
 A Material designed search bar for android written in Kotlin
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53d0a2339a77489b83a42478f516b9ea)](https://app.codacy.com/app/pranav.maganti/materialbar?utm_source=github.com&utm_medium=referral&utm_content=vanpra/materialbar&utm_campaign=Badge_Grade_Dashboard)
 [![](https://jitpack.io/v/vanpra/materialbar.svg)](https://jitpack.io/#vanpra/materialbar)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53d0a2339a77489b83a42478f516b9ea)](https://app.codacy.com/app/pranav.maganti/materialbar?utm_source=github.com&utm_medium=referral&utm_content=vanpra/materialbar&utm_campaign=Badge_Grade_Dashboard)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Gradle Dependency
