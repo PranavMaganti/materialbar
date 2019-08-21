@@ -23,7 +23,7 @@ Then add the following to your project dependencies:
 
 ## Screenshots
 
-|  ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png)|  ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png)
+|  ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png)|  ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png)|
 |--|--|
 
 ## Main Bar
