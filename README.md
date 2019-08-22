@@ -78,7 +78,7 @@ A listener for the bar itself can also be set using the following code:
 To use the search bar a new activity (SearchActivity) should be created and the following code should be added to the activity xml:
 
      <com.vanpra.materialbar.ui.SearchBar  
-		  android:id="@+id/searchBar"  
+	      android:id="@+id/searchBar"  
 	      android:layout_width="match_parent"  
 	      android:layout_height="match_parent"  
 	      app:search_hint="Search for a song, artist or album" />
