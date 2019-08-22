@@ -2,6 +2,7 @@
 A Material designed search bar for android written in Kotlin
 
 [![](https://jitpack.io/v/vanpra/materialbar.svg)](https://jitpack.io/#vanpra/materialbar)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53d0a2339a77489b83a42478f516b9ea)](https://app.codacy.com/app/pranav.maganti/materialbar?utm_source=github.com&utm_medium=referral&utm_content=vanpra/materialbar&utm_campaign=Badge_Grade_Dashboard)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Gradle Dependency
@@ -45,9 +46,9 @@ The tags mentioned above are optional and the bar is still functional without th
 The right icon and left icon drawables along with the title can also be set programmatically from the main activity using the following code:
 
     bar.apply {
-	    setRightIcon(R.drawable.account_circle_outline)
-	    setLeftIcon(R.drawable.menu)
-	    setTitle("Material Bar")
+	    rightIcon = R.drawable.account_circle_outline
+	    leftIcon  = R.drawable.menu
+	    title = "Material Bar"
 	    ...
     }
 
@@ -55,11 +56,11 @@ The listeners for the right and left icons can be set using the following code i
 
     bar.apply {
 	    ...
-	    setRightIconListener {
+	    rightIconListener = {
 		    //INSERT CODE TO BE EXECUTED ON RIGHT ICON CLICK
 	    }
 	    
-	    setLeftIconListener {
+	    leftIconListener = {
 		    //INSERT CODE TO BE EXECUTED ON LEFT ICON CLICK
 	    }
 	    ...
@@ -69,7 +70,7 @@ A listener for the bar itself can also be set using the following code:
 
     bar.apply {
 	    ...
-	    setBarClickListener {
+	    barClickListener = {
 		    //INSERT CODE TO BE EXECUTED BAR CLICK
 	    }
     }
@@ -90,7 +91,7 @@ In the main activity in which the material bar has been defined the setBarClickL
 
     bar.apply {
 	    ...
-	    setBarClickListener {
+	    barClickListener =  {
 		    val intent = Intent(this, SearchActivity::class.java)  
 			startActivity(intent)
 	    }

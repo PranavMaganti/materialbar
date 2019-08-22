@@ -496,62 +496,6 @@
             ]
         },
         {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/f7c32c139f4e8387ea9741fcad621c67/core-1.1.0-rc01/res/values-as/values-as.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3309",
-                        "endColumns": "100",
-                        "endOffsets": "3405"
-                    }
-                },
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/54708309c862b3dc5b21ec78e81e04e3/appcompat-1.1.0-rc01/res/values-as/values-as.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,312,419,510,612,732,809,885,976,1068,1163,1257,1358,1451,1546,1640,1731,1822,1907,2020,2128,2227,2336,2452,2572,2739,2841",
-                        "endColumns": "107,98,106,90,101,119,76,75,90,91,94,93,100,92,94,93,90,90,84,112,107,98,108,115,119,166,101,81",
-                        "endOffsets": "208,307,414,505,607,727,804,880,971,1063,1158,1252,1353,1446,1541,1635,1726,1817,1902,2015,2123,2222,2331,2447,2567,2734,2836,2918"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,312,419,510,612,732,809,885,976,1068,1163,1257,1358,1451,1546,1640,1731,1822,1907,2020,2128,2227,2336,2452,2572,2739,3227",
-                        "endColumns": "107,98,106,90,101,119,76,75,90,91,94,93,100,92,94,93,90,90,84,112,107,98,108,115,119,166,101,81",
-                        "endOffsets": "208,307,414,505,607,727,804,880,971,1063,1158,1252,1353,1446,1541,1635,1726,1817,1902,2015,2123,2222,2331,2447,2567,2734,2836,3304"
-                    }
-                },
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/169923aa754682eb4479ffd430452800/preference-1.1.0-rc01/res/values-as/values-as.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,182,266,348,491,660,751",
-                        "endColumns": "76,83,81,142,168,90,79",
-                        "endOffsets": "177,261,343,486,655,746,826"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,35,36,37",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "2841,2918,3002,3084,3410,3579,3670",
-                        "endColumns": "76,83,81,142,168,90,79",
-                        "endOffsets": "2913,2997,3079,3222,3574,3665,3745"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat",
             "map": [
                 {
@@ -608,6 +552,77 @@
             ]
         },
         {
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/f7c32c139f4e8387ea9741fcad621c67/core-1.1.0-rc01/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3309",
+                        "endColumns": "100",
+                        "endOffsets": "3405"
+                    }
+                },
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/54708309c862b3dc5b21ec78e81e04e3/appcompat-1.1.0-rc01/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,312,419,510,612,732,809,885,976,1068,1163,1257,1358,1451,1546,1640,1731,1822,1907,2020,2128,2227,2336,2452,2572,2739,2841",
+                        "endColumns": "107,98,106,90,101,119,76,75,90,91,94,93,100,92,94,93,90,90,84,112,107,98,108,115,119,166,101,81",
+                        "endOffsets": "208,307,414,505,607,727,804,880,971,1063,1158,1252,1353,1446,1541,1635,1726,1817,1902,2015,2123,2222,2331,2447,2567,2734,2836,2918"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,312,419,510,612,732,809,885,976,1068,1163,1257,1358,1451,1546,1640,1731,1822,1907,2020,2128,2227,2336,2452,2572,2739,3227",
+                        "endColumns": "107,98,106,90,101,119,76,75,90,91,94,93,100,92,94,93,90,90,84,112,107,98,108,115,119,166,101,81",
+                        "endOffsets": "208,307,414,505,607,727,804,880,971,1063,1158,1252,1353,1446,1541,1635,1726,1817,1902,2015,2123,2222,2331,2447,2567,2734,2836,3304"
+                    }
+                },
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/169923aa754682eb4479ffd430452800/preference-1.1.0-rc01/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,182,266,348,491,660,751",
+                        "endColumns": "76,83,81,142,168,90,79",
+                        "endOffsets": "177,261,343,486,655,746,826"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2841,2918,3002,3084,3410,3579,3670",
+                        "endColumns": "76,83,81,142,168,90,79",
+                        "endOffsets": "2913,2997,3079,3222,3574,3665,3745"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/5e79946f066e2c2e69ed300501bb638c/core-3.1.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat",
             "map": [
                 {
@@ -659,21 +674,6 @@
                         "startOffsets": "105,218,320,435,524,635,756,835,912,1010,1109,1204,1298,1406,1506,1608,1702,1800,1898,1978,2086,2189,2288,2404,2507,2612,2769,3261",
                         "endColumns": "112,101,114,88,110,120,78,76,97,98,94,93,107,99,101,93,97,97,79,107,102,98,115,102,104,156,101,80",
                         "endOffsets": "213,315,430,519,630,751,830,907,1005,1104,1199,1293,1401,1501,1603,1697,1795,1893,1973,2081,2184,2283,2399,2502,2607,2764,2866,3337"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/5e79946f066e2c2e69ed300501bb638c/core-3.1.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "51",
-                        "endOffsets": "102"
                     }
                 }
             ]

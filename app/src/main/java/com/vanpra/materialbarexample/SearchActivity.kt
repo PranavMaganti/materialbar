@@ -1,10 +1,11 @@
 package com.vanpra.materialbarexample
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import coil.api.load
 import com.afollestad.assent.Permission
@@ -18,14 +19,13 @@ import com.afollestad.materialdialogs.list.customListAdapter
 import com.vanpra.materialbar.ui.SearchBar
 import java.io.File
 import java.util.*
-import androidx.lifecycle.Observer
 
 class SearchActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
-        val mainViewModel =
+        val searchViewModel =
             ViewModelProviders.of(this).get(SearchViewModel::class.java)
 
         var songs = listOf<Song>()
@@ -68,7 +68,7 @@ class SearchActivity : AppCompatActivity() {
                 }
 
                 customListAdapter(itemAdapter)
-                itemAdapter.submitList(mainViewModel.menuItems)
+                itemAdapter.submitList(searchViewModel.menuItems)
             }
         }
 
@@ -89,13 +89,13 @@ class SearchActivity : AppCompatActivity() {
                 songAdapter.submitList(sortedSongs)
             }
 
-            setResultsAdapter(songAdapter)
+            resultsAdapter = songAdapter
         }
 
         runWithPermissions(
             Permission.READ_EXTERNAL_STORAGE
         ) {
-            mainViewModel.extractData().observe(this, Observer { returnedSongs ->
+            searchViewModel.extractData().observe(this, Observer { returnedSongs ->
                 Log.d("SONGS", returnedSongs.toString())
                 songs = returnedSongs
             })

@@ -1363,7 +1363,7 @@ id labeled
 id largeLabel
 id layout
 id left
-id leftIcon
+id left_icon
 id line1
 id line3
 id listMode
@@ -1423,7 +1423,6 @@ id recentSearchRv
 id recentSearchesTxt
 id recycler_view
 id right
-id rightIcon
 id right_icon
 id right_side
 id save_image_matrix
@@ -1498,6 +1497,7 @@ id textinput_helper_text
 id time
 id title
 id titleDividerNoCustom
+id titleTxt
 id title_template
 id top
 id topPanel

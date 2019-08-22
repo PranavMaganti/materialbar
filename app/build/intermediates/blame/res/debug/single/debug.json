@@ -12,12 +12,12 @@
         "source": "/home/pranav/AndroidStudioProjects/MaterialBar/app/src/main/res/drawable/delete.xml"
     },
     {
-        "merged": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/layout_search_bar_layout.xml.flat",
-        "source": "/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/packaged_res/debug/layout/search_bar_layout.xml"
-    },
-    {
         "merged": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/drawable_close.xml.flat",
         "source": "/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/packaged_res/debug/drawable/close.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/layout_search_bar_layout.xml.flat",
+        "source": "/home/pranav/AndroidStudioProjects/MaterialBar/materialbar/build/intermediates/packaged_res/debug/layout/search_bar_layout.xml"
     },
     {
         "merged": "/home/pranav/AndroidStudioProjects/MaterialBar/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
