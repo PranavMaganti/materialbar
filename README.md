@@ -90,11 +90,11 @@ The search bar automatically stores any searches made in a room database and dis
 In the main activity in which the material bar has been defined the setBarClickListener should include the following code:
 
     bar.apply {
-	    ...
-	    barClickListener =  {
-		    val intent = Intent(this, SearchActivity::class.java)  
-			startActivity(intent)
-	    }
+	...
+	barClickListener =  {
+		val intent = Intent(this, SearchActivity::class.java)   
+		startActivity(intent)
+	}
     }
 
 The search bar requires an RecyclerView Adaptor to display the results of the search:
@@ -102,15 +102,15 @@ The search bar requires an RecyclerView Adaptor to display the results of the se
     val customAdapter = CustomRecyclerViewAdapter()
     
     searchBar.apply {
-	    searchResultsAdapter = customAdapter
+	searchResultsAdapter = customAdapter
 	    
-	    backListener = {  
-		  finish()  
-		}
-		
-		textListener = { searchText ->
-			//DO SOMETHING WITH SEARCH TEXT
-		}
+	backListener = {  
+	    finish()  
+	}
+
+	textListener = { searchText ->
+		//DO SOMETHING WITH SEARCH TEXT
+	}
     }
    
  The `backListener` is used to set a listener for the back icon shown in the search bar. Usually this icon will finish the search activity and return the user to the main activity as shown in the code above.
