@@ -30,6 +30,17 @@ class SearchBar @JvmOverloads constructor(
 
     var textListener: ((String) -> Unit)? = null
     var backListener: (() -> Unit)? = null
+    var resultsAdapter:RecyclerView.Adapter<*>? = null
+        set(value) {
+            field = value
+            searchResultsRv.apply {
+                setHasFixedSize(true)
+                layoutManager = LinearLayoutManager(this.context)
+                adapter = value
+                addItemDecoration(DividerItemDecoration(this.context, ClipDrawable.HORIZONTAL))
+            }
+        }
+
 
     private val playlistRepo = PlaylistRepository.instance(context.applicationContext)
 
@@ -49,11 +60,8 @@ class SearchBar @JvmOverloads constructor(
 
         search_text.requestFocus()
         search_text.afterTextChanged {
-            if (textListener == null) {
-                Log.d("ERROR", "No search text listener has been set")
-            } else {
-                textListener!!(it)
-            }
+            val listener = textListener ?: {}
+            listener(it)
         }
 
         search_text.onTextChanged {
@@ -107,14 +115,7 @@ class SearchBar @JvmOverloads constructor(
         }
     }
 
-    fun setResultsAdapter(rvAdapter:RecyclerView.Adapter<*>) {
-        searchResultsRv.apply {
-            setHasFixedSize(true)
-            layoutManager = LinearLayoutManager(this.context)
-            adapter = rvAdapter
-            addItemDecoration(DividerItemDecoration(this.context, ClipDrawable.HORIZONTAL))
-        }
-    }
+
 
     private fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
         this.addTextChangedListener(object : TextWatcher {

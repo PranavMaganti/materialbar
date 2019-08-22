@@ -9,7 +9,7 @@
     android:clipToPadding="true">
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titleTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/leftIcon"
+        android:id="@+id/left_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="14dp"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/rightIcon"
+        android:id="@+id/right_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="12dp"

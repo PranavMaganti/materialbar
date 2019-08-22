@@ -861,7 +861,7 @@ id italic
 id item_touch_helper_previous_elevation
 id layout
 id left
-id leftIcon
+id left_icon
 id line1
 id line3
 id listMode
@@ -888,7 +888,6 @@ id recentSearchRv
 id recentSearchesTxt
 id recycler_view
 id right
-id rightIcon
 id right_icon
 id right_side
 id screen
@@ -939,6 +938,7 @@ id textSpacerNoTitle
 id time
 id title
 id titleDividerNoCustom
+id titleTxt
 id title_template
 id top
 id topPanel

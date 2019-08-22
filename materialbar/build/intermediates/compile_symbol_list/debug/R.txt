@@ -860,7 +860,7 @@ int id italic 0x0
 int id item_touch_helper_previous_elevation 0x0
 int id layout 0x0
 int id left 0x0
-int id leftIcon 0x0
+int id left_icon 0x0
 int id line1 0x0
 int id line3 0x0
 int id listMode 0x0
@@ -887,7 +887,6 @@ int id recentSearchRv 0x0
 int id recentSearchesTxt 0x0
 int id recycler_view 0x0
 int id right 0x0
-int id rightIcon 0x0
 int id right_icon 0x0
 int id right_side 0x0
 int id screen 0x0
@@ -938,6 +937,7 @@ int id textSpacerNoTitle 0x0
 int id time 0x0
 int id title 0x0
 int id titleDividerNoCustom 0x0
+int id titleTxt 0x0
 int id title_template 0x0
 int id top 0x0
 int id topPanel 0x0
