@@ -23,8 +23,8 @@ Then add the following to your project dependencies:
 
 ## Screenshots
 
-|  ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png)|  ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png)|
-|--|--|
+| ![Material Bar](https://i.ibb.co/5hrqpv9/Screenshot-20190821-130222.png) | ![Search bar](https://i.ibb.co/qncK5fn/Screenshot-20190821-130249.png) |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
 
 ## Main Bar
 Material bar consists of 2 components the main bar and the search bar. The main bar can be used on its own if the search bar is not needed. The following code should be added to the main layout:
@@ -91,10 +91,10 @@ In the main activity in which the material bar has been defined the setBarClickL
 
     bar.apply {
 	...
-	barClickListener =  {
-		val intent = Intent(this, SearchActivity::class.java)   
-		startActivity(intent)
-	}
+		barClickListener =  {
+			val intent = Intent(this, SearchActivity::class.java)   
+			startActivity(intent)
+		}
     }
 
 The search bar requires an RecyclerView Adaptor to display the results of the search:
@@ -102,15 +102,15 @@ The search bar requires an RecyclerView Adaptor to display the results of the se
     val customAdapter = CustomRecyclerViewAdapter()
     
     searchBar.apply {
-	searchResultsAdapter = customAdapter
-	    
-	backListener = {  
-	    finish()  
-	}
+		searchResultsAdapter = customAdapter
+			
+		backListener = {  
+			finish()  
+		}
 
-	textListener = { searchText ->
-		//DO SOMETHING WITH SEARCH TEXT
-	}
+		textListener = { searchText ->
+			//DO SOMETHING WITH SEARCH TEXT
+		}
     }
    
  The `backListener` is used to set a listener for the back icon shown in the search bar. Usually this icon will finish the search activity and return the user to the main activity as shown in the code above.
